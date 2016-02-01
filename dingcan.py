@@ -52,9 +52,9 @@ elif(get_id == "c"):
     a = 1 
 else:
     ids = get_id.split('|')
-    num = 1
     for i in ids:
         #防止用户输入有误，提交错误的数据
+        num = 1
         i_ = i.split(':')
         if(len(i_) == 2):
             num = i_[1]
